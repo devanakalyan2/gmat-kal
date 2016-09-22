@@ -1,0 +1,76 @@
+{	"timeToSolve" : 4800,
+	"Description" : "700-800 gmat club pdf",
+	"Questions" : 
+
+		[
+			{
+				"qstnNo": 1,
+				"qstn" : "A certain game board is in the shape of a non-convex polygon, with spokes that extend from each vertex to the center of the board.  If each spoke is 8 inches long, and spokes are used nowhere else on the board, what is the sum of the interior angles of the polygon? ",
+				"qstnStmt1" : "(1)  The sum of the exterior angles of the polygon is 360º (360 degrees).",
+				"qstnStmt2" : "(2)  The sum of the exterior angles is equal to five times the total length of all of the spokes used. ",				
+				"opt1" : " Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+				"opt2" : " Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+				"opt3" : " BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient.",
+				"opt4" : " EACH statement ALONE is sufficient to answer the question asked.",
+				"opt5" : " Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed.",
+				"img_url" : "",
+				"ans" : "2",
+				"diffLevel" : "500-600",
+				"type" : "Data_Sufficiency"
+			},
+			{
+				"qstnNo": 2,
+				"qstn" : "The measures of the interior angles in a polygon are consecutive integers. The smallest angle measures 136 degrees. How many sides does this polygon have? ",
+				"opt1" : "8",
+				"opt2" : "9",
+				"opt3" : "10",
+				"opt4" : "11",
+				"opt5" : "13",
+				"img_url" : "",
+				"ans" : "2",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 3,
+				"qstn" : "If x represents the sum of the interior angles of a regular hexagon and y represents the sum of the interior angles of a regular pentagon, then the difference between x and y is equal to the sum of the interior angles of what geometric shape? ",
+				"opt1" : "triangle",
+				"opt2" : "square",
+				"opt3" : "rhombus",
+				"opt4" : "trapezoid",
+				"opt5" : "pentagon",
+				"img_url" : "",
+				"ans" : "1",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 4,
+				"qstn" : " If Polygon X has fewer than 9 sides, how many sides does Polygon X have?  ",
+				"qstnStmt1" : "(1)  The sum of the interior angles of Polygon X is divisible by 16. ",
+				"qstnStmt2" : "(2)  The sum of the interior angles of Polygon X is divisible by 15.   ",				
+				"opt1" : " Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+				"opt2" : " Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+				"opt3" : " BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient.",
+				"opt4" : " EACH statement ALONE is sufficient to answer the question asked.",
+				"opt5" : " Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed.",
+				"img_url" : "",
+				"ans" : "1",
+				"diffLevel" : "500-600",
+				"type" : "Data_Sufficiency"
+			},{
+				"qstnNo": 5,
+				"qstn" : "Regular hexagon ABCDEF has a perimeter of 36. O is the center of the hexagon and of circle O. Circles A , B , C , D , E , and F have centers at A , B , C , D , E , and F , respectively. If each circle is tangent to the two circles adjacent to it and to circle O , what is the area of the shaded region (inside the hexagon but outside the circles)? ",
+				"opt1" : "108 – 18π ",
+				"opt2" : "54√3 – 9π ",
+				"opt3" : "54√3 – 18π ",
+				"opt4" : "108 – 27π ",
+				"opt5" : "54√3 – 27π ",
+				"img_url" : "images/geoSet2/1.png",
+				"ans" : "5",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			}
+
+		]	
+}

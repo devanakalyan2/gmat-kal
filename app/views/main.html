@@ -1,0 +1,179 @@
+
+<div class = "container-fluid">
+
+  <div class = "row">
+
+    <div class="logo-container pull-left">
+      <h4 class="h4"> GMAT Test Series 1.2</h4>
+    </div>
+    <div class="timer-container pull-right adj" ng-show= "main.showQuestions && main.showResults == false">
+      <h5>Timer : <strong> {{main.minutes }} : {{main.seconds}}</strong></h5>
+      <div class=>
+        <button class="btn btn-danger" data-toggle="modal" data-target="#endExamModal" >End Test</button>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<!-- Warnings begin -->
+  <div class="alert alert-danger" role="alert-max-questions" ng-show="main.maxShowAlert"> 
+    <strong>Warning!</strong> 
+    You have reached the last Question. 
+  </div>
+  <div class="alert alert-danger" role="alert-min-questions" ng-show="main.minShowAlert"> 
+    <strong>Warning!</strong> 
+    You are at the first question.
+  </div>
+<!-- Warnings end -->
+
+<div class = "container" >
+  
+<!-- Initial view -->
+  <div class="row " ng-show = "main.showInstructions">
+    <div class="col-lg-12 instruction-main-container">
+      <div class=" col-lg-8 col-offset-2 center-block instruction-container">
+        <h5 class="h5">1) Welcome to the Latest version.</h5>
+        <h5 class="h5">2) There will be no navigation to the previous question</h5>
+        <h5 class="h5">3) You can move forward once you answer the current question.</h5>
+        <h5 class="h5">4) Total Time for the test is {{main.countDownLimit / 60}} minutes.</h5>  
+         <h5 class="h5" style="color:orange">5) Find your wrong answers below in the results section.</h5>                          
+      </div>
+      <div class="col-lg-4 take-test-container">
+        <div class="adj">
+          <button class="btn btn-success btn-md"  ng-click = "main.takeTest()">Take Test</button>
+        </div>
+      </div>
+      </div>
+  </div>
+
+<!-- initial View End -->
+
+
+<!--Third View -->
+  <div class="container">
+    <div class="row result-container" ng-show = "main.showResults ">
+      <div class="col-lg-12 center-block">
+        <div class="timer-container pull-right adj" style="color:orange;">
+          <h5><strong> Time Left: </strong> {{main.minutes }} minutes and {{main.seconds}} seconds</h5>
+        </div>
+        <label><strong>Results</strong></label>
+        <div ng-if = "main.evaluateQuestions == true">
+            <table class="table table-bordered">
+          <thead>
+            <tr>
+              <th> Question No </th>
+<!--              <th> Level </th>  -->
+              <th> Type </th>
+              <th> Answer Key </th>
+              <th> Your Answer </th>
+              <th> Result </th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr ng-repeat="answer in main.answerKeyArray track by $index">
+              <td> {{ $index + 1 }} </td>
+<!--              <td> {{ main.diffLevelArray[$index] }} </td> -->
+              <td> {{ main.typeArray[$index] }} </td>              
+              <td> {{ main.answerKeyArray[$index] }} </td>
+              <td> {{ main.answeredArray[$index] }} </td>
+              <td>
+                <span ng-if = "main.answerKeyArray[$index] == main.answeredArray[$index]">
+                 <span ng-init = "main.correctAnswerCount = main.correctAnswerCount + 1" class="glyphicon glyphicon-ok" aria-hidden="true" ></span>
+                 
+                </span>
+                <span ng-if = "main.answerKeyArray[$index] != main.answeredArray[$index]">
+                 <span ng-init = "main.reviewResultsByQuestion[$index] = true" class="glyphicon glyphicon-remove" aria-hidden="true"></span>
+                </span>                                
+              </td>
+            </tr>
+          </tbody>
+          </table>
+        </div>
+        
+
+        <label class="adj">Correct Answers  = {{main.correctAnswerCount}}</label>
+        <label class="adj">Wrong Answers  = {{main.answerKeyArray.length - main.correctAnswerCount }}</label>
+
+    <div class="alert alert-danger" role="alert-max-questions" > 
+      <strong>Scroll Down!</strong> 
+     You can find wrongly answered questions.
+    </div>
+      </div>
+    </div>
+  </div>
+<!--third View end-->
+
+<!--second View -->
+  <div class = "row pull-left" ng-show= "main.showQuestions" >
+    <div  class="Question-wrapper" data-qNo= "{{$index}}" ng-show="main.questionNumber == $index || main.reviewResultsByQuestion[$index]" ng-repeat = "question in main.questionData" >
+            
+      <div class="question-main-container" >
+          <div class="question-no-container"> 
+            <h5 class="h5"><strong> Question {{ question.qstnNo }}</strong></h5> 
+          </div>
+
+          <div class="question-container" ng-if="question.type === 'Data_Sufficiency'">
+            <article>
+                <p> {{question.qstn}} </p>
+                <p>{{question.qstnStmt1}}</p>
+                <p>{{question.qstnStmt2}}</p>
+                <img ng-src="{{question.img_url}}" alt=""/>
+              </article>
+          </div>
+
+          <div class="question-container" ng-if = "question.type != 'Data_Sufficiency'">
+            <article>
+                <p> {{question.qstn}} </p>
+                <img ng-src="{{question.img_url}}" alt=""/>
+              </article>
+          </div>
+
+          <div class="options_container">
+            <form>
+              <input type="radio" value="1" ng-model="main.answeredArray[$index]"> {{question.opt1}}<br>
+              <input type="radio" value="2" ng-model="main.answeredArray[$index]"> {{question.opt2}}<br>
+              <input type="radio" value="3" ng-model="main.answeredArray[$index]"> {{question.opt3}} <br>
+              <input type="radio" value="4" ng-model="main.answeredArray[$index]"> {{question.opt4}}<br>
+              <input type="radio" value="5" ng-model="main.answeredArray[$index]"> {{question.opt5}}  
+            </form> 
+          </div>
+      </div>
+
+      <div class="navigation-container">
+        <button class= "btn btn-primary btn-xs pull-right" role="Next" ng-show="main.answeredArray[$index] && main.showResults == 
+        false" ng-click= "main.navigate('Next',$index,question.ans)"> Next</button>
+      </div>   
+      
+      <div ng-if = " main.answerKeyArray.length < main.questionData.length " ng-init=" main.makeArrays(question.ans,question.diffLevel,question.type)"> 
+      </div> 
+    
+    </div>
+    </div>
+</div>
+
+<!--second View end-->
+
+
+
+
+<!-- Modal to warn end exam-->
+<div class="modal fade" id="endExamModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog modal-sm" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title">Are you sure to end the Exam</h4>
+      </div>
+
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal" ng-click="main.endTest()">End Exam</button>
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Cancel</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+<!-- Modal end-->

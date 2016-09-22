@@ -1,0 +1,36 @@
+			{
+				"qstnNo": 1,
+				"qstn" : "",
+				"opt1" : "",
+				"opt2" : "",
+				"opt3" : "",
+				"opt4" : "",
+				"opt5" : "",
+				"img_url" : "",
+				"ans" : "",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 2,
+				"qstn" : "  ",
+				"qstnStmt1" : "(1) ",
+				"qstnStmt2" : "(2) ",				
+				"opt1" : " Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+				"opt2" : " Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+				"opt3" : " BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient.",
+				"opt4" : " EACH statement ALONE is sufficient to answer the question asked.",
+				"opt5" : " Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed.",
+				"img_url" : "",
+				"ans" : "",
+				"diffLevel" : "500-600",
+				"type" : "Data_Sufficiency"
+			},
+
+			√ 
+
+			prob :: 126  from behind included till :: 167
+			data :: done.
+
+			medium :: 28
+			hard :: 48

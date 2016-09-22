@@ -1,0 +1,10 @@
+1   5 //magoosh//http://magoosh.com/gmat/2016/gmat-data-sufficiency-geometry-question// find answers below in the same page 
+2	2
+3	3
+4	4
+5	1
+6	1
+7	4
+8	2
+9	3
+10	5

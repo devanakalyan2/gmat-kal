@@ -1,0 +1,74 @@
+{	"timeToSolve" : 1200,
+	"Description" : "700-800 gmat club pdf",
+	"Questions" : 
+
+		[
+			{
+				"qstnNo": 1,
+				"qstn" : " Each of 435 bags contains at least one of the following three items: raisins, almonds, and peanuts. The number of bags that contain only raisins is 10 times the number of bags that contain only peanuts. The number of bags that contain only almonds is 20 times the number of bags that contain only raisins and peanuts. The number of bags that contain only peanuts is one-fifth the number of bags that contain only almonds. 210 bags contain almonds. How many bags contain only one kind of item? ",
+				"opt1" : "256",
+				"opt2" : "260",
+				"opt3" : "316",
+				"opt4" : "320",
+				"opt5" : "350",
+				"img_url" : "",
+				"ans" : "4",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 2,
+				"qstn" : "  Tom and Linda stand at point A . Linda begins to walk in a straight line away from Tom at a constant rate of 2 miles per hour. One hour later, Tom begins to jog in a straight line in the exact opposite direction at a constant rate of 6 miles per hour. If both Tom and Linda travel indefinitely, what is the positive difference, in minutes, between the amount of time it takes Tom to cover half of the distance that Linda has covered and the amount of time it takes Tom to cover twice the distance that Linda has covered?  ",
+				"opt1" : "60",
+				"opt2" : "72",
+				"opt3" : "84",
+				"opt4" : "90",
+				"opt5" : "108",
+				"img_url" : "",
+				"ans" : "5",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 3,
+				"qstn" : "What is x ? ",
+				"qstnStmt1" : "(1)  | x | < 2   ",
+				"qstnStmt2" : "(2)   | x | = 3 x – 2    ",				
+				"opt1" : " Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+				"opt2" : " Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+				"opt3" : " BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient.",
+				"opt4" : " EACH statement ALONE is sufficient to answer the question asked.",
+				"opt5" : " Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed.",
+				"img_url" : "",
+				"ans" : "2",
+				"diffLevel" : "500-600",
+				"type" : "Data_Sufficiency"
+			},
+			{
+				"qstnNo": 4,
+				"qstn" : "  A certain movie star's salary for each film she makes consists of a fixed amount, along with a percentage of the gross revenue the film generates. In her last two roles, the star made $32 million on a film that grossed $100 million, and $24 million on a film that grossed $60 million. If the star wants to make at least $40 million on her next film, what is the minimum amount of gross revenue the film must generate? ",
+				"opt1" : "$110 million  ",
+				"opt2" : "$120 million  ",
+				"opt3" : "$130 million  ",
+				"opt4" : "$140 million  ",
+				"opt5" : "$150 million  ",
+				"img_url" : "",
+				"ans" : "4",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 5,
+				"qstn" : "Sally has a gold credit card with a certain spending limit, and a platinum card with twice the spending limit of the gold card. Currently, she has a balance on her gold card that is 1/3 of the spending limit on that card, and she has a balance on her platinum card that is 1/5 of the spending limit on that card. If Sally transfers the entire balance on her gold card to her platinum card, what portion of her limit on the platinum card will remain unspent?",
+				"opt1" : "11/30",
+				"opt2" : "29/60",
+				"opt3" : "17/30",
+				"opt4" : "19/30",
+				"opt5" : "11/15",
+				"img_url" : "",
+				"ans" : "4",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			}
+		]	
+}

@@ -1,0 +1,78 @@
+{	"timeToSolve" : 1800,
+	"Description" : "700-800 gmat club pdf",
+	"Questions" : 
+
+		[
+			{
+				"qstnNo": 1,
+				"qstn" : " In a group of 68 students, each student is registered for at least one of three classes – History, Math and English. Twenty-five students are registered for History, twenty-five students are registered for Math, and thirty-four students are registered for English. If only three students are registered for all three classes, how many students are registered for exactly two classes? ",
+				"opt1" : "13",
+				"opt2" : "10",
+				"opt3" : "9",
+				"opt4" : "8",
+				"opt5" : "7",
+				"img_url" : "",
+				"ans" : "2",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 2,
+				"qstn" : "A farmer has an apple orchard consisting of Fuji and Gala apple trees. Due to high winds this year 10% of his trees cross pollinated. The number of his trees that are pure Fuji plus the cross-pollinated ones totals 187, while 3/4 of all his trees are pure Fuji. How many of his trees are pure Gala?",
+				"opt1" : "22",
+				"opt2" : "33",
+				"opt3" : "55",
+				"opt4" : "77",
+				"opt5" : "88",
+				"img_url" : "",
+				"ans" : "2",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 3,
+				"qstn" : "Of all the houses on Kermit Lane, 20 have front porches, 20 have front yards, and 40 have back yards. How many houses are on Kermit Lane? ",
+				"qstnStmt1" : "(1) No house on Kermit Lane is without a back yard.  ",
+				"qstnStmt2" : "(2)  Each house on Kermit Lane that has a front porch does not have a front yard  ",				
+				"opt1" : " Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+				"opt2" : " Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+				"opt3" : " BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient.",
+				"opt4" : " EACH statement ALONE is sufficient to answer the question asked.",
+				"opt5" : " Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed.",
+				"img_url" : "",
+				"ans" : "1",
+				"diffLevel" : "500-600",
+				"type" : "Data_Sufficiency"
+			},
+			{
+				"qstnNo": 4,
+				"qstn" : "At least 100 students at a certain high school study Japanese. If 4 percent of the students who study French also study Japanese, do more students at the school study French than Japanese?",
+				"qstnStmt1" : "(1)  16 students at the school study both French and Japanese.   ",
+				"qstnStmt2" : "(2)   10 percent of the students at the school who study Japanese also study French.  ",				
+				"opt1" : " Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+				"opt2" : " Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+				"opt3" : " BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient.",
+				"opt4" : " EACH statement ALONE is sufficient to answer the question asked.",
+				"opt5" : " Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed.",
+				"img_url" : "",
+				"ans" : "2",
+				"diffLevel" : "500-600",
+				"type" : "Data_Sufficiency"
+			},
+			{
+				"qstnNo": 5,
+				"qstn" : " Of the students who eat in a certain cafeteria, each student either likes or dislikes lima beans and each student either likes or dislikes Brussels sprouts. Of these students, 2/3 dislike lima beans; and of those who dislike lima beans, 3/5 also dislike Brussels sprouts. How many of the students like Brussels sprout but dislike lima beans?  ",
+				"qstnStmt1" : "(1)  120 students eat in the cafeteria.   ",
+				"qstnStmt2" : "(2)  40 of the students like lima beans.   ",				
+				"opt1" : " Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+				"opt2" : " Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+				"opt3" : " BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient.",
+				"opt4" : " EACH statement ALONE is sufficient to answer the question asked.",
+				"opt5" : " Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed.",
+				"img_url" : "",
+				"ans" : "4",
+				"diffLevel" : "500-600",
+				"type" : "Data_Sufficiency"
+			}
+		]	
+}

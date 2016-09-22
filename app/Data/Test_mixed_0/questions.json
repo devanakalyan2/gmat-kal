@@ -1,0 +1,64 @@
+{	"timeToSolve" : 2100,
+	"Description" : "Data_Sufficiency_set_1_Veritas",
+	"Questions" : 
+
+		[
+			{
+				"qstnNo": 1,
+				"qstn" : "A bookshelf contains 40 books, 30 of which are hardcover and 20 of which are fiction. What is the maximum number of books that are both hardcover and fiction?",
+				"opt1" : " 10",
+				"opt2" : " 15 ",
+				"opt3" : " 20 ",
+				"opt4" : " 25",
+				"opt5" : " 30",
+				"img_url" : "",
+				"ans" : "3",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 2,
+				"qstn" : "Assume that all positive integers are colored either red or blue. If a set S consisting entirely of positive integers is chosen, where R is the number of red integers chosen and B is the number of blue integers chosen, the discrepancy of set S is |R-B|. If set Q is such a set, is its discrepancy greater than (1/2) ? ",
+				"qstnStmt1" : "(1) R/(R+B) < B/(R+B)",
+				"qstnStmt2" : "(2) R < B",				
+				"opt1" : " Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+				"opt2" : " Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+				"opt3" : " BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient.",
+				"opt4" : " EACH statement ALONE is sufficient to answer the question asked.",
+				"opt5" : " Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed.",
+				"img_url" : "",
+				"ans" : "4",
+				"diffLevel" : "500-600",
+				"type" : "Data_Sufficiency"
+			},
+			{
+				"qstnNo": 3,
+				"qstn" : "At a tanning salon, customers are charged $10 for their first visit in a calendar month and $6 for each visit after that in the same calendar month. In the last calendar month, 100 customers visited the salon, of which 30 made a second visit, and 10 made a third visit. All other customers made only one visit. If those visits were the only source of revenue for the salon, what was the revenue for the last calendar month at the salon?",
+				"opt1" : " 10",
+				"opt2" : " 15 ",
+				"opt3" : " 20 ",
+				"opt4" : " 25",
+				"opt5" : " 30",
+				"img_url" : "",
+				"ans" : "2",
+				"diffLevel" : "500-600",
+				"type" : "Problem_Solving"
+			},
+			{
+				"qstnNo": 4,
+				"qstn" : "a, b, and c are three distinct positive integers. What is the product abc?  ",
+				"qstnStmt1" : "(1) a + b + c = 7",
+				"qstnStmt2" : "(2) ab + bc + ca = 14",				
+				"opt1" : " Statement (1) ALONE is sufficient, but statement (2) alone is not sufficient to answer the question asked.",
+				"opt2" : " Statement (2) ALONE is sufficient, but statement (1) alone is not sufficient to answer the question asked.",
+				"opt3" : " BOTH statements (1) and (2) TOGETHER are sufficient to answer the question asked, but NEITHER statement ALONE is sufficient.",
+				"opt4" : " EACH statement ALONE is sufficient to answer the question asked.",
+				"opt5" : " Statements (1) and (2) TOGETHER are NOT sufficient to answer the question asked, and additional data are needed.",
+				"img_url" : "",
+				"ans" : "4",
+				"diffLevel" : "500-600",
+				"type" : "Data_Sufficiency"
+			}		
+
+		]	
+}
